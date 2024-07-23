@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0s;
+}
+
+body{
+    background-color: #1A1A1A;
+}
+
+.anuncio{
+    background-color: yellow;
+    
+}
+
+.anuncio p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serifs;
+}
+
+header{
+    border-bottom: 1px solid gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+header img{
+    width: 150px;
+}
+
+header nav ul{
+    display: flex;
+    list-style-type: none;
+}
+
+header nav ul li{
+    margin: 5px;
+}
+
+header nav ul li a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+header .boton img{
+    width: 30px;
+}
+
+header .boton a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+header .boton{
+    display: flex;
+    align-items: center;
+}
